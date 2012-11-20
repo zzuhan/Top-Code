@@ -1,0 +1,42 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+	<script type="text/javascript" src="util.js"></script>
+	<script type="text/javascript">
+	var arr = [1, 2, 3];
+	var results = [];
+	 _.each(arr, function (num) {
+	 	results.push(num * 3);
+	});
+	 
+	 console.log( results );
+
+	 _.defer(function () {
+	 	alert(1);
+	 });
+
+	 var initialize = _.once(function (x) {
+	 	alert(x);
+	 });
+
+	 initialize(1);
+
+
+	 // var arr = [1, 2, 3];
+	 // arr[4] = 1;
+	 // arr.sayHello = function () {
+	 // 	2133
+	 // };
+	 // console.log( arr);
+	 // for (var i in arr) {
+	 // 	console.log( arr[i] );
+	 // }
+
+	</script>
+</head>
+<body>
+	
+</body>
+</html>
