@@ -1,0 +1,26 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+Dome	.\dome_feature.js	/^	function Dome(els) {$/;"	c
+Dome.constructor	.\dome_feature.js	/^		constructor: Dome,$/;"	p
+Dome.each	.\dome_feature.js	/^		each: function (callback, args) { \/\/可以使用return false 提前跳出this循环 也应该实现object的 each$/;"	m
+Dome.fn.addClass	.\dome.js	/^	Dome.fn.addClass = function (classes) {$/;"	f
+Dome.fn.append	.\dome.js	/^	Dome.fn.append = function (el) {$/;"	c
+Dome.fn.attr	.\dome.js	/^	Dome.fn.attr = function (attr, val) {$/;"	f
+Dome.fn.forEach	.\dome.js	/^	Dome.fn.forEach = function (callback) {$/;"	c
+Dome.fn.html	.\dome.js	/^	Dome.fn.html = function (html) {$/;"	f
+Dome.fn.map	.\dome.js	/^	Dome.fn.map = function (callback) {  \/\/ callback(item, i)$/;"	f
+Dome.fn.mapOne	.\dome.js	/^	Dome.fn.mapOne = function (callback) {$/;"	f
+Dome.fn.prepend	.\dome.js	/^	Dome.fn.prepend = function (els) { \/\/ 需要考虑如果是插入到多个元素中，需要克隆$/;"	c
+Dome.fn.remove	.\dome.js	/^	Dome.fn.remove = function () { \/\/Dome 对象中还保存着DOM对象引用，仍然可以进行别处添加$/;"	f
+Dome.fn.removeClass	.\dome.js	/^	Dome.fn.removeClass = function (clazz) {$/;"	c
+Dome.fn.text	.\dome.js	/^	Dome.fn.text = function (text) {$/;"	f
+Dome.map	.\dome_feature.js	/^		map: function (callback) {$/;"	m
+dome.create	.\dome.js	/^		create: function (tagName, attrs) { \/\/ also return a Dome instance$/;"	m
+dome.get	.\dome.js	/^		get: function (selector) {$/;"	m
+dome.get	.\dome_feature.js	/^		get: function (selector) {$/;"	m
+indexOf	.\dome.js	/^		Array.prototype.indexOf = function (item) {$/;"	m
+isFunction	.\dome_feature.js	/^(function () {$/;"	f

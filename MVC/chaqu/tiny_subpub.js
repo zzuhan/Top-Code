@@ -1,0 +1,7 @@
+(function ($) {
+	var o = $({});
+
+	$.
+
+
+})(jQuery);

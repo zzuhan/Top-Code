@@ -1,0 +1,79 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<title>自定义事件和Jquery插件</title>
+	<style type="text/css">
+	.active { background-color: red; }
+	</style>
+	<script type="text/javascript" src="jquery.js"></script>
+	<script type="text/javascript">
+	// 自定义事件 方便的解耦 
+	// function init () {
+		
+	// }
+	jQuery.fn.tabs = function (control) {
+		var element = $(this),
+			control = $(control);
+
+		element.find('li').on('click', function () {
+			element.find('li').removeClass('active');
+			$(this).addClass('active');
+
+			var tabName = $(this).data('tab');
+			control.find('>[data-tab]').removeClass('active');
+			control.find('>[data-tab='+tabName+']').addClass('active');
+		});
+
+		element.find('li').eq(0).trigger('click');
+
+		return this;
+	}
+
+ 	
+ 	// 解法2
+ 	jQuery.fn.tabs = function (control) {
+ 		var element = $(this),
+ 			control = $(control);
+
+ 		element.delegate('li', 'click', function () {
+ 			var tabName = $(this).data('tab');
+
+ 			element.trigger('change.tabs', tabName);
+ 			// console.log( tabName );
+ 		});
+
+ 		element.bind('change.tabs', function (e, tabName) {
+ 			element.find('>[data-tab]').removeClass('active');
+ 			element.find('>[data-tab='+tabName+']').addClass('active');
+ 		});
+
+ 		element.bind('change.tabs', function (e, tabName) {
+ 			control.find('>[data-tab]').removeClass('active');
+ 			control.find('>[data-tab='+tabName+']').addClass('active');
+ 		});
+
+ 		var firstName = element.find('li:eq(0)').data('tab');
+ 		element.trigger('change.tabs', firstName);
+
+ 		return this;
+ 	}
+
+ 	jQuery(function ($) {
+		$('#tabs').tabs('#tabsContent');
+		$('#tabs').trigger('change.tabs', 'groups');
+	});
+	</script>
+</head>
+<body>
+	<ul id="tabs">
+		<li data-tab="users">Users</li>
+		<li data-tab="groups">Groups</li>
+	</ul>
+
+	<div id="tabsContent">
+		<div data-tab="users">uuuuu</div>
+		<div data-tab="groups">gggggs</div>
+	</div>
+</body>
+</html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+	<title></title>
+	<style type="text/css">
+	/*li>a {
+		display: block;
+	}*/
+	</style>
+	<script type="text/javascript" src="zepto.js"></script>
+	<script type="text/javascript">
+	$(function () {
+		// var oUl = $('ul');
+		// oUl.delegate('li a','mouseover', function (e) {
+		// 	var target = e.target;
+		// 	alert(target.innerHTML);
+		// });
+		var oUl = document.getElementById('ul');
+		oUl.addEventListener('mouseover', function (e) {
+			// this oUl
+			if (e.target.className == 'delegate') {
+				alert('yes delegate');
+			}
+		}, false);
+	});
+	
+	</script>
+</head>
+<body>
+	<ul id="ul">
+		<li>
+			<a href="" class="test">234</a>
+		</li>			
+		<li>
+			<a href="" class="delegate">123</a>
+		</li>	
+	</ul>
+</body>
+</html>

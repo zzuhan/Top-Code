@@ -1,0 +1,127 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+$	.\top-ten\top-ten-javascript.js	/^function $() {$/;"	f
+Array	.\top-ten\top-ten-javascript.js	/^Array.prototype.inArray = function (value) {$/;"	c
+Array.inArray	.\top-ten\top-ten-javascript.js	/^Array.prototype.inArray = function (value) {$/;"	m
+ArrayProto	.\util\underscore.js	/^  var ArrayProto = Array.prototype, ObjProto = Object.prototype, FuncProto = Function.prototype;$/;"	v
+ArrayProto	.\util\util.js	/^	var ArrayProto = Array.prototype, $/;"	v
+Dome	.\Dome\dome_feature.js	/^	function Dome(els) {$/;"	c
+Dome.constructor	.\Dome\dome_feature.js	/^		constructor: Dome,$/;"	p
+Dome.each	.\Dome\dome_feature.js	/^		each: function (callback, args) { \/\/可以使用return false 提前跳出this循环 也应该实现object的 each$/;"	m
+Dome.fn.addClass	.\Dome\dome.js	/^	Dome.fn.addClass = function (classes) {$/;"	f
+Dome.fn.append	.\Dome\dome.js	/^	Dome.fn.append = function (el) {$/;"	c
+Dome.fn.attr	.\Dome\dome.js	/^	Dome.fn.attr = function (attr, val) {$/;"	f
+Dome.fn.forEach	.\Dome\dome.js	/^	Dome.fn.forEach = function (callback) {$/;"	c
+Dome.fn.html	.\Dome\dome.js	/^	Dome.fn.html = function (html) {$/;"	f
+Dome.fn.map	.\Dome\dome.js	/^	Dome.fn.map = function (callback) {  \/\/ callback(item, i)$/;"	f
+Dome.fn.mapOne	.\Dome\dome.js	/^	Dome.fn.mapOne = function (callback) {$/;"	f
+Dome.fn.prepend	.\Dome\dome.js	/^	Dome.fn.prepend = function (els) { \/\/ 需要考虑如果是插入到多个元素中，需要克隆$/;"	c
+Dome.fn.remove	.\Dome\dome.js	/^	Dome.fn.remove = function () { \/\/Dome 对象中还保存着DOM对象引用，仍然可以进行别处添加$/;"	f
+Dome.fn.removeClass	.\Dome\dome.js	/^	Dome.fn.removeClass = function (clazz) {$/;"	c
+Dome.fn.text	.\Dome\dome.js	/^	Dome.fn.text = function (text) {$/;"	f
+Dome.map	.\Dome\dome_feature.js	/^		map: function (callback) {$/;"	m
+F	.\top-ten\MVC_extend.js	/^	F.prototype.__proto__ = this.prototype;$/;"	c
+F	.\util\util.js	/^		F.prototype.__proto__ = this.prototype;$/;"	c
+F.__proto__	.\top-ten\MVC_extend.js	/^	F.prototype.__proto__ = this.prototype;$/;"	m
+_	.\util\underscore.js	/^  var _ = function(obj) { return new wrapper(obj); };$/;"	f
+_.after	.\util\underscore.js	/^  _.after = function(times, func) {$/;"	f
+_.bind	.\util\underscore.js	/^  _.bind = function bind(func, context) {$/;"	f
+_.bindAll	.\util\underscore.js	/^  _.bindAll = function(obj) {$/;"	f
+_.clone	.\util\underscore.js	/^  _.clone = function(obj) {$/;"	f
+_.compact	.\util\underscore.js	/^  _.compact = function(array) {$/;"	f
+_.compose	.\util\underscore.js	/^  _.compose = function() {$/;"	f
+_.debounce	.\util\underscore.js	/^  _.debounce = function(func, wait, immediate) {$/;"	f
+_.debounce.later	.\util\underscore.js	/^      var later = function() {$/;"	f
+_.defaults	.\util\underscore.js	/^  _.defaults = function(obj) {$/;"	f
+_.defer	.\util\underscore.js	/^  _.defer = function(func) {$/;"	f
+_.defer	.\util\util.js	/^	_.defer = function (func) {$/;"	f
+_.delay	.\util\underscore.js	/^  _.delay = function(func, wait) {$/;"	f
+_.delay	.\util\util.js	/^	_.delay = function (func, wait) {$/;"	f
+_.difference	.\util\underscore.js	/^  _.difference = function(array) {$/;"	f
+_.each	.\util\util.js	/^	_.each = function (obj, callback, context) {$/;"	f
+_.extend	.\util\underscore.js	/^  _.extend = function(obj) {$/;"	f
+_.filter	.\util\util.js	/^	_.filter = function (obj, iterator, context) {$/;"	f
+_.flatten	.\util\underscore.js	/^  _.flatten = function(array, shallow) {$/;"	f
+_.groupBy	.\util\underscore.js	/^  _.groupBy = function(obj, val) {$/;"	f
+_.has	.\util\underscore.js	/^  _.has = function(obj, key) {$/;"	f
+_.has	.\util\util.js	/^	_.has = function (obj, key) {$/;"	f
+_.identity	.\util\underscore.js	/^  _.identity = function(value) {$/;"	f
+_.indexOf	.\util\underscore.js	/^  _.indexOf = function(array, item, isSorted) {$/;"	f
+_.initial	.\util\underscore.js	/^  _.initial = function(array, n, guard) {$/;"	f
+_.invoke	.\util\underscore.js	/^  _.invoke = function(obj, method) {$/;"	f
+_.isArguments	.\util\underscore.js	/^  _.isArguments = function(obj) {$/;"	f
+_.isBoolean	.\util\underscore.js	/^  _.isBoolean = function(obj) {$/;"	f
+_.isDate	.\util\underscore.js	/^  _.isDate = function(obj) {$/;"	f
+_.isElement	.\util\underscore.js	/^  _.isElement = function(obj) {$/;"	f
+_.isElement	.\util\util.js	/^	_.isElement = function (obj) {$/;"	f
+_.isEmpty	.\util\underscore.js	/^  _.isEmpty = function(obj) {$/;"	f
+_.isEqual	.\util\underscore.js	/^  _.isEqual = function(a, b) {$/;"	f
+_.isFinite	.\util\underscore.js	/^  _.isFinite = function(obj) {$/;"	f
+_.isFunction	.\util\underscore.js	/^  _.isFunction = function(obj) {$/;"	f
+_.isNaN	.\util\underscore.js	/^  _.isNaN = function(obj) {$/;"	f
+_.isNull	.\util\underscore.js	/^  _.isNull = function(obj) {$/;"	f
+_.isNumber	.\util\underscore.js	/^  _.isNumber = function(obj) {$/;"	f
+_.isObject	.\util\underscore.js	/^  _.isObject = function(obj) {$/;"	f
+_.isRegExp	.\util\underscore.js	/^  _.isRegExp = function(obj) {$/;"	f
+_.isString	.\util\underscore.js	/^  _.isString = function(obj) {$/;"	f
+_.isUndefined	.\util\underscore.js	/^  _.isUndefined = function(obj) {$/;"	f
+_.last	.\util\underscore.js	/^  _.last = function(array, n, guard) {$/;"	f
+_.lastIndexOf	.\util\underscore.js	/^  _.lastIndexOf = function(array, item) {$/;"	f
+_.map	.\util\util.js	/^	_.map = function (obj, iterator, context) {$/;"	f
+_.max	.\util\underscore.js	/^  _.max = function(obj, iterator, context) {$/;"	f
+_.max.result.computed	.\util\underscore.js	/^    var result = {computed : -Infinity};$/;"	p
+_.memoize	.\util\underscore.js	/^  _.memoize = function(func, hasher) {$/;"	f
+_.min	.\util\underscore.js	/^  _.min = function(obj, iterator, context) {$/;"	f
+_.min.result.computed	.\util\underscore.js	/^    var result = {computed : Infinity};$/;"	p
+_.noConflict	.\util\underscore.js	/^  _.noConflict = function() {$/;"	f
+_.once	.\util\underscore.js	/^  _.once = function(func) {$/;"	f
+_.once	.\util\util.js	/^	_.once = function (func) {$/;"	f
+_.pick	.\util\underscore.js	/^  _.pick = function(obj) {$/;"	f
+_.pluck	.\util\underscore.js	/^  _.pluck = function(obj, key) {$/;"	f
+_.range	.\util\underscore.js	/^  _.range = function(start, stop, step) {$/;"	f
+_.reject	.\util\underscore.js	/^  _.reject = function(obj, iterator, context) {$/;"	f
+_.reject	.\util\util.js	/^	_.reject = function (obj, iterator, context) {$/;"	f
+_.shuffle	.\util\underscore.js	/^  _.shuffle = function(obj) {$/;"	f
+_.size	.\util\underscore.js	/^  _.size = function(obj) {$/;"	f
+_.sortBy	.\util\underscore.js	/^  _.sortBy = function(obj, val, context) {$/;"	f
+_.sortedIndex	.\util\underscore.js	/^  _.sortedIndex = function(array, obj, iterator) {$/;"	f
+_.tap	.\util\underscore.js	/^  _.tap = function(obj, interceptor) {$/;"	f
+_.throttle	.\util\underscore.js	/^  _.throttle = function(func, wait) {$/;"	f
+_.throttle.later	.\util\underscore.js	/^      var later = function() {$/;"	f
+_.times	.\util\underscore.js	/^  _.times = function (n, iterator, context) {$/;"	f
+_.toArray	.\util\underscore.js	/^  _.toArray = function(obj) {$/;"	f
+_.union	.\util\underscore.js	/^  _.union = function() {$/;"	f
+_.values	.\util\underscore.js	/^  _.values = function(obj) {$/;"	f
+_.without	.\util\underscore.js	/^  _.without = function(array) {$/;"	f
+_.wrap	.\util\underscore.js	/^  _.wrap = function(func, wrapper) {$/;"	f
+_.zip	.\util\underscore.js	/^  _.zip = function() {$/;"	f
+addEvent	.\top-ten\top-ten-javascript.js	/^function addEvent (elm, evType, fn) {$/;"	f
+addLoadEvent	.\top-ten\top-ten-javascript.js	/^function addLoadEvent (func) {$/;"	f
+bind	.\util\underscore.js	/^  _.bind = function bind(func, context) {$/;"	f
+ctor	.\util\underscore.js	/^  var ctor = function(){};$/;"	f
+dome.create	.\Dome\dome.js	/^		create: function (tagName, attrs) { \/\/ also return a Dome instance$/;"	m
+dome.get	.\Dome\dome.js	/^		get: function (selector) {$/;"	m
+dome.get	.\Dome\dome_feature.js	/^		get: function (selector) {$/;"	m
+eq	.\util\underscore.js	/^  function eq(a, b, stack) {$/;"	f
+extend	.\util\util.js	/^	Function.prototype.extend = function (source) {$/;"	m
+getElementsByTagName	.\top-ten\top-ten-javascript.js	/^function getElementsByTagName (searchClass, node, tag) {$/;"	f
+indexOf	.\Dome\dome.js	/^		Array.prototype.indexOf = function (item) {$/;"	m
+insertAfter	.\top-ten\top-ten-javascript.js	/^function insertAfter (node, refNode) {$/;"	f
+isFunction	.\Dome\dome_feature.js	/^(function () {$/;"	f
+nativeFilter	.\util\util.js	/^	var nativeFilter = ArrayProto.filter;$/;"	v
+nativeForEach	.\util\underscore.js	/^    nativeForEach      = ArrayProto.forEach,$/;"	v
+object_copy	.\top-ten\object_copy.js	/^var object_copy = function (obj) {$/;"	f
+prependChild	.\top-ten\top-ten-javascript.js	/^function prependChild(parent, newNode) {$/;"	f
+previousUnderscore	.\util\underscore.js	/^  var previousUnderscore = root._;$/;"	v
+return	.\util\underscore.js	/^    return bound = function() {$/;"	f
+size	.\util\underscore.js	/^    var size = 0, result = true;$/;"	v
+slice	.\util\underscore.js	/^  var slice            = ArrayProto.slice,$/;"	v
+slice	.\util\util.js	/^	var slice = ArrayProto.slice,$/;"	v
+toggle	.\top-ten\top-ten-javascript.js	/^function toggle (idStr) {$/;"	f
+var.F	.\top-ten\MVC_extend.js	/^	var F = function() {this.init.apply(this, arguments)};$/;"	c
+var.F	.\util\util.js	/^		var F = function() { this.init.apply(this, arguments) };$/;"	c
+window.onload	.\top-ten\top-ten-javascript.js	/^		window.onload = function () {$/;"	f
